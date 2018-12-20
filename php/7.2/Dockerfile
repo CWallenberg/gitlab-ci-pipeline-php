@@ -26,7 +26,7 @@ RUN bash ./packages.sh \
     && bash ./extensions.sh \
     && bash ./node.sh \
     && bash ./cleanup.sh \
-    && apt-get install ltfp \
+    && apt-get install lftp \
     && adduser --disabled-password --gecos "" $IMAGE_USER && \
        echo "PATH=$(yarn global bin):$PATH" >> /root/.profile && \
        echo "PATH=$(yarn global bin):$PATH" >> /root/.bashrc && \

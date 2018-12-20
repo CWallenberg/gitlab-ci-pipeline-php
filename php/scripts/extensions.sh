@@ -7,6 +7,7 @@ bcmath \
 bz2 \
 calendar \
 exif \
+gmp \
 iconv \
 intl \
 mbstring \
@@ -31,6 +32,7 @@ if [[ $PHP_VERSION = "7.2" ]]; then
   runtimeDeps=" \
     imagemagick \
     libfreetype6-dev \
+    libgmp-dev \
     libicu-dev \
     libjpeg-dev \
     libkrb5-dev \
@@ -54,6 +56,7 @@ else
   runtimeDeps=" \
     imagemagick \
     libfreetype6-dev \
+    libgmp-dev \
     libicu-dev \
     libjpeg-dev \
     libkrb5-dev \

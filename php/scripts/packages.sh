@@ -26,6 +26,7 @@ DEBIAN_FRONTEND=noninteractive
       git \
       gnupg2 \
       libc-client-dev \
+      lftp \
       openssh-client \
       python \
       python-dev \

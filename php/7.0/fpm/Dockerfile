@@ -1,6 +1,6 @@
 FROM php:7.0-fpm
 
-LABEL maintainer="Eduardo Bizarro <eduardo@zendev.com.br>" \
+LABEL maintainer="CWallenberg" \
       php="7.0" \
       node="10"
 

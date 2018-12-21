@@ -1,6 +1,6 @@
 FROM php:7.0-alpine
 
-LABEL maintainer="Eduardo Bizarro <eduardo@zendev.com.br>" \
+LABEL maintainer="CWallenberg" \
       php="7.1" \
       node="11.3.0" \
       npm="6" \
